@@ -1,0 +1,25 @@
+echo "# 3401" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+	Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+git branch -M main
+git remote add origin https://github.com/UTA-PYTHON/3401.git
+git push -u origin main
+
+---------------------------------------------------------------
+
+or push an existing repository from the command line
+git remote add origin https://github.com/UTA-PYTHON/3401.git
+git branch -M main
+git push -u origin main
